@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * use putchar to print all letters but the letter q and e.
+ * main - main block
+ * Description: use putchar to print all letters but the letter q and e.
+ * Return: 0
  */
 int main (void)
 { 

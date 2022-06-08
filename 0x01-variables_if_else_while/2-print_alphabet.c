@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * use putchar function to print thealphabet in lowercase
+ * main - main block
+ *Description: use putchar function to print thealphabet in lowercase
+ *Return: 0
  */
 int main (void)
 {
