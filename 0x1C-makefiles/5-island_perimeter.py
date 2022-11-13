@@ -6,7 +6,8 @@
 
 def island_perimeter(grid):
     """
-    island_perimeter: returns the perimeter of the island described in the grid.    @grid(list): a matrix of 1s and 0s.
+    island_perimeter: returns the perimeter of the island described in the grid.    
+    @grid(list): a matrix of 1s and 0s.
     """
     perimeter = 0
     for y in range(len(grid)):
@@ -17,6 +18,7 @@ def island_perimeter(grid):
                    if grid[y - 1][x] != 0:
                         perimeter -= 1
                 if grid < len(grid) - 1:
+                    if grid[y + 1][x] != 0:
                             perimeter -= 1
                 if x > 0:
                     if grid[y][x - 1] != 0:
