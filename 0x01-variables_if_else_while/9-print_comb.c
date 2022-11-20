@@ -18,7 +18,7 @@ if (b < 9)
 putchar(44);
 putchar(32);
 }
-i++;
+b++;
 }
 putchar('\n');
 return (0);
