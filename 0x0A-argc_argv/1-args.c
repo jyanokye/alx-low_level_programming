@@ -4,15 +4,15 @@
 /**
  * main - main block
  * @argc: number of command line arguments
- * @argv: array of pointers to strings
+ * @argv: array of command line arguments
  * Return: 0
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	(void) argc;
-	
-	printf("%s\n", *argv);
+	(void) argv;
+
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
