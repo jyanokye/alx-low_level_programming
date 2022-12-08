@@ -25,9 +25,10 @@ int _atoi(char *s)
 				a = (s[i] - '0') * -1;
 			if (s[i + 1] < 48 || s[i + 1] > 57)
 				break;
-		}
-		if (c < 0)
-			a *= -1;
+		}	
+	}
+	if (c < 0)
+		a *= -1;
 		
-		return (a);
+	return (a);
 }
