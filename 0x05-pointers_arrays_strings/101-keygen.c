@@ -17,7 +17,7 @@ int main(void)
 	{
 		rndm = (rand() % 100);
 		printf("%c", rndm);
-		checksum -= rndm
+		checksum -= rndm;
 	}
 	printf("%c", checksum);
 	return (0);
