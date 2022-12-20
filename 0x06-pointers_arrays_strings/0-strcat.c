@@ -1,13 +1,25 @@
-#include <stdio.h>
+#include "main.h"
 
-int main(void)
+/**
+ * _strcat - catenates
+ * @dest: pointer to first string
+ * @src: pointer to second string
+ * Return: pointer to  dest
+ */
+
+char *_strcat(char *dest, char *src)
 {
-	int s;
-	int b[5];
-	int *r;
-	b[2] = 102;
-	r = &s;
-	*(r + 5) = 98;
-	printf("b[2] = %d\n", b[2]);
-	return (0);
+	int i, l;
+	
+	for (i = 0; dest[i] != '\0'; i++)
+	{
+		;
+	}
+	
+	for (l = 0; src[l] != '\0'; l++)
+	{
+		dest[i + l] = src[l];
+	}
+	dest[i + l] = '\0';
+	return (dest);
 }
