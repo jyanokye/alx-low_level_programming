@@ -1,15 +1,15 @@
 #include "main.h"
+
 /**
- * get_endianness - Entry Point
- * Return: 0
+ * get_endianness - sets the value of a bit to 1 at a given index
+ * Return: 1 if little endian 0 if big endian
  */
 int get_endianness(void)
 {
-	unsigned int i;
+	unsigned int i = 1;
+	char *j = (char *)&i;
 
-	i = 1;
-	if (*(char *)&i == 1)
+	if (*j)
 		return (1);
-	else
-		return (0);
+	return (0);
 }
