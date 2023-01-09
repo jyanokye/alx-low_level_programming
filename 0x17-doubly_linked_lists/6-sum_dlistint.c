@@ -6,13 +6,13 @@
  */
 int sum_dlistint(dlistint_t *head)
 {
-	int sumary;
+	int dumary;
 
 
-	for (sumary = 0; head != NULL;)
+	for (dumary = 0; head != NULL;)
 	{
-		sumary += head->n;
+		dumary += head->n;
 		head = head->next;
 	}
-	return (sumary);
+	return (dumary);
 }
