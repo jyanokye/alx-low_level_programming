@@ -2,8 +2,8 @@
 
 /**
  * add - adds two numbers
- * @a: the first argument
- * @b: second argument
+ * @g: the first argument
+ * @h: second argument
  *Return: Always 0
  */
 
