@@ -8,24 +8,24 @@
 
 int main(void)
 {
-	unsigned long int n;
-	unsigned long int m = 1;
-	unsigned long int o = 0;
-	unsigned long int a;
+	unsigned long int w;
+	unsigned long int f = 1;
+	unsigned long int s = 0;
+	unsigned long int c;
 
-	for (n = 0; n < 98; n++)
+	for (w = 0; w < 98; w++)
 	{
-		a = m + o;
+		c = f + s;
 
-		printf("%lu", a);
+		printf("%lu", c);
 
-		if (n < 97)
+		if (w < 97)
 		{
 			printf(",");
 			printf(" ");
 		}
-		o = m;
-		m = a;
+		s = f;
+		f = c;
 	}
 	printf("\n");
 	return (0);
